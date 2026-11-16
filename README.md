@@ -6,7 +6,8 @@ A command-line number guessing game written in Python.
 - You get 5 guesses.
 - After each wrong guess, you're told "too low!" or "too high!"
 - The game tells you how many tries it took, or reveals the number if you run out.
-
+- Typing something that isn't a number won't crash the game.
+  
 ## How to run
 ```
 
@@ -20,5 +21,5 @@ A command-line number guessing game written in Python.
   - converting input with `int()`
  
 ## Ideas for next versions
-  - Handle non-number input without crashing (`try`/`except`)
   - Let the player choose the range and difficulty
+    
